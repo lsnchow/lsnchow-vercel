@@ -1,0 +1,198 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: column;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.appDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;  
+}
+
+
+.Projects {
+  text-align: center;
+}
+
+.aboutMeContainer{
+  display: flex;
+  align-self: center;
+  flex-direction: column; 
+}
+
+
+.contactText {
+  padding: 1rem;
+  line-height: 115%;
+  text-align: center;
+  font-weight: 200;
+}
+
+
+#waterphoto {
+  max-width: 400px;
+  height: auto;
+}
+
+.navbarcontainer {
+  background-color: #e0fffa;
+  position: relative;
+}
+
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 40px;
+  justify-content: left;
+  padding: 0.1rem 0.1rem 0.1rem;
+}
+
+.Navbar > h3 {
+  margin: 1rem 0.7rem 1rem;
+  text-decoration: none;
+}
+
+.Navbar .nv1{
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
+.Navbar .nv1:hover {
+  color:grey;
+  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .Navbar {
+    flex-direction: column;
+  }
+  .Navbar > h3 {
+    margin: 0.1 rem 0 0.1 rem;
+  }
+}
+
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.introduction-text {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.ce-text {
+  padding: 10px 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.introduction-text > h1 {
+  font-size: 100px;
+  margin: 0;
+}
+.introduction-text > h2 {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+.Error404 {
+  text-align: center;
+}
+
+
+
+
+.waterphoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.waterphoto > h3 {
+  text-size-adjust: 50%;
+  color: #4d4d4d;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+
+/*footer items */
+
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 40px;
+  padding: 0.5rem;
+  background-color: #e0fffa;
+  align-self: center;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.footercontainer > a {
+  display: flex;
+}
+
+h3.footerLink{
+  margin: 0rem 0.2rem;
+  margin-right: 4rem;
+  padding: 0.3rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+a.linksItem:hover {
+  size: 115%;
+}
+
+
+.footercontainer > a > img {
+  width: 2rem;
+  height: 2rem;
+  padding: 0rem;
+
+}
+
+
