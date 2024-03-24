@@ -2,7 +2,7 @@ import React from "react"
 
 function Projects() {
     return (
-        <h1 className = "Projects">Coming Soon</h1>
+        <h1 className = "Projects">Coming Soon...</h1>
     )
 }
 

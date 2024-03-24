@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className = "footercontainer">
             <a href = "https://drive.google.com/file/d/1ggiGBlH94nel9lnDsN3jgdhUin_1a7jF/view?usp=sharing" className = "linksItem">
-                <img src = "https://img.icons8.com/ios/250/000000/resume.png" alt = "resumay-icon"/>
+                <img src = "https://img.icons8.com/ios/250/000000/resume.png" alt = "resumay-icon" />
                 <h3 className = "footerLink">Resume</h3>
             </a>
             <a href = "https://github.com/lsnchow" className = "linksItem">
