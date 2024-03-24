@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <div className = "aboutMeContainer">
             <div className = "introduction-text">
-                <h1 className="title-intro">Hi there👋,</h1>
+                <h1 className="title-intro">Hi there👋</h1>
                 <h2 className="title-name">My name is Lucas Chow!</h2>
                 <h3 className="bio-p">I'm a Grade 12 student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h3>
             </div>
