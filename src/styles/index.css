@@ -1,14 +1,13 @@
 body {
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
+  background-color: #1a2333;
 }
 
 html, body {
@@ -37,6 +36,10 @@ html, body {
 }
 
 
+
+
+
+
 .contactText {
   padding: 1rem;
   line-height: 115%;
@@ -51,7 +54,7 @@ html, body {
 }
 
 .navbarcontainer {
-  background-color: #e0fffa;
+  background-color: #111723;
   position: relative;
 }
 
@@ -59,8 +62,8 @@ html, body {
 .Navbar {
   display: flex;
   flex-direction: row;
-  margin: 10px 40px;
-  justify-content: left;
+  margin: 1rem 1rem;
+  justify-content: center;
   padding: 0.1rem 0.1rem 0.1rem;
 }
 
@@ -71,7 +74,7 @@ html, body {
 
 .Navbar .nv1{
   padding: 10px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.3s;
   
@@ -86,21 +89,90 @@ html, body {
 
 
 
+/*blog titles/links*/
+.blogs .nv1:hover {
+  color: rgb(1, 255, 179);
+}
+
+
+
+.blogs > ul {
+  margin-left: 0.5rem;
+  list-style-type: none;
+}
+
+.blogs .nv1,.post-title {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+
+/*text in blogs*/
+
+.blog-standardized > h3,a{
+  padding: 1rem;
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  transition: 0.3s;
+}
+
+.blog-standardized > h3 > a:hover {
+  color: rgb(1, 255, 179);
+}
+
+.blog-standardized > h3 > code {
+  background-color: black;
+  padding: 0.3rem;
+}
+
+
+
+
+.blog-standardized > h1 {
+  color: white;
+  padding: 1rem;
+  text-decoration: underline;
+
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
   .Navbar {
     flex-direction: column;
+    justify-content: center;
+    
   }
-  .Navbar > h3 {
-    margin: 0.1 rem 0 0.1 rem;
-    color: red;
+  .Navbar .nv1,h3 {
+    margin: 0.155rem 1rem 0.155rem 1rem;
+    justify-content: center;
+    padding: 0;
   }
 
+  .Navbar > h3 {
+    margin: 0.055rem 0 0.055rem 0;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+  
   .appDiv .footercontainer {
     flex-direction: column;
     align-items: center;
   }
+ 
+  .appDiv .footercontainer > a{
+    padding: 0.3rem;
+  }
+
+
 }
+
 
 
 
@@ -109,7 +181,7 @@ html, body {
   flex-direction: row;
   margin: 0px 40px;
   padding: 0.5rem;
-  background-color: #e0fffa;
+  background-color: #111723;
   align-self: center;
   bottom: 0;
   position: fixed;
@@ -129,13 +201,17 @@ html, body {
 
 
 
-
+h2.post-title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 
 .introduction-text {
   display: flex;
   padding: 50px;
   flex-direction: column;
+  font-family: monospace;
 }
 
 .ce-text {
@@ -146,15 +222,23 @@ html, body {
 .introduction-text > h1 {
   font-size: 3rem;
   margin: 0;
+  color:white
+  
 }
 .introduction-text > h2 {
   font-size: 1rem;
   margin: 10px 0px;
+  color: white
+}
+
+.introduction-text > h3 {
+  color: white;
 }
 
 .Error404 {
   text-align: center;
 }
+
 
 
 
@@ -166,7 +250,7 @@ html, body {
 }
 .waterphoto > h3 {
   text-size-adjust: 50%;
-  color: #4d4d4d;
+  color: #cacaca;
   font-size: 15px;
   font-weight: 200;
 }
@@ -179,20 +263,16 @@ html, body {
 .footercontainer > a {
   display: flex;
   flex-direction: row;
-}
-
-h3.footerLink{
-  margin: 0rem 0.2rem;
-  margin-right: 4rem;
-  padding: 0.3rem;
-  font-weight: 300;
   text-decoration: none;
-  color: black;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 1rem;
+  font-weight: 500;
+  color: white;
 }
 
-a:link{
-  text-decoration: none!important;
-}
+
+
+
 
 a.linksItem:hover {
   size: 115%;
