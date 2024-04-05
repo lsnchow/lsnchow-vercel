@@ -12,7 +12,7 @@ function AboutMe() {
                 <TypewriterEffect text="&#x200B;Hello there!" speed ={200} delay = {1000}/>
                 <div className = "sliding-text">
                     <h2 className="title-name" >My name is Lucas Chow!</h2>
-                    <h2 className="bio-p">I'm a Grade 12 student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h2>
+                    <h2 className="bio-p">I'm a <b className = "grade12-text">Grade 12</b> student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h2>
                     <Blogs />
                 </div>
             </div>

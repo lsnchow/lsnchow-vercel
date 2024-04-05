@@ -44,6 +44,8 @@ body {
 }
 
 
+
+
 @keyframes slideRight {
   from {
     transform: translateX(-100%);
@@ -213,7 +215,6 @@ a {
 
 
   .appDiv .footercontainer {
-    flex-direction: column;
     align-items: center;
   }
 
@@ -267,14 +268,17 @@ h2.post-title {
   font-family: monospace;
 }
 
+.grade12-text {
+  color: rgb(134, 223, 255)
+}
+
 .ce-text {
-  padding: 10px 5px;
-  font-family: 'Courier New', Courier, monospace;
+  color: rgb(200, 137, 255)
 }
 
 /*some thing in react where it doesn't recognize <h1> w/ a classname? had to assign one to the parent div*/
 .typeWriterDiv>h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin: 0;
   color: white
 }
@@ -288,8 +292,8 @@ h2.post-title {
   margin: 10px 0px;
   color: white;
   animation: slideRight 1s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  white-space: nowrap;
   transition: slide;
+  animation-delay: 200ms;
   opacity: 0;
 }
 
@@ -301,7 +305,7 @@ h2.post-title {
   margin: 10px 0px;
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 400ms;
+  animation-delay: 600ms;
   
   
 }
@@ -309,7 +313,7 @@ h2.post-title {
 .post-title {
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 600ms;
+  animation-delay: 800ms;
 }
 
 /*wow cool math in css???; */
@@ -318,14 +322,14 @@ h2.post-title {
 .blogs > ul > li:nth-child(1){
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 800ms;
+  animation-delay: 1000ms;
 }
 
 
 .blogs > ul > li:nth-child(2){
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 1000ms;
+  animation-delay: 1200ms;
 }
 
 
