@@ -33,7 +33,7 @@ function App() {
             <Route path ="*" element ={<Error404 />} />
             <Route path = "/blog-posts/coding-a-new-website" element = {<Blog1/>}/>
             <Route path = "/blog-posts/1-step-forward-3-steps-back" element = {<Blog2/>}/>
-            <Route path = "/blogs-post" element = {<Blogs/>}/>
+            <Route path = "/blog-posts" element = {<Blogs/>}/>
           </Routes>
           <Footer />
     </div>

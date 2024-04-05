@@ -2,7 +2,10 @@ import React from "react"
 
 function Projects() {
     return (
-        <h1 className = "Projects">Coming Soon...</h1>
+        <div className = "projects">
+            <h1 className = "project-text">Coming Soon...</h1>
+        </div>
+        
     )
 }
 

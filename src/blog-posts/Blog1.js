@@ -5,9 +5,8 @@ function Blog1() {
         <div className = "blog-standardized">
             <h1>Learning to make this website</h1>
             <h3>This website was made w/ JS, HTML, and CSS using React components. </h3>
-            <h3>If you're curious of the code behind this website, check out my<a href="https://github.com/lsnchow">Github</a></h3>
-            <h3>&#40;My code isn't the cleanest, quite a lot of redundancy in the CSS selections - Lack of consistency with<a href ="https://www.w3schools.com/css/css_selectors.asp">CSS Selectors</a>destroyed the hierachy, making this a headache and a half to make cool transitions :D&#41;</h3>
-            <h3>&#40;btw while coding these hover animations, I didn't realize you must be pretty specific of the hierachy, i.e. class1 - class2 - class3 &#8800; class1 - class 3&#41;</h3>
+            <h3>If you're curious of the code behind this website, check out my <a href="https://github.com/lsnchow">Github</a></h3>
+            <h3>&#40;My code isn't the cleanest, quite a lot of redundancy in the CSS selections - Lack of consistency with <a href ="https://www.w3schools.com/css/css_selectors.asp">CSS Selectors</a> destroyed the hierachy, making this a headache and a half to make cool transitions :D&#41;</h3>
         </div>
     )
 }

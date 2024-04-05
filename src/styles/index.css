@@ -1,3 +1,7 @@
+/*the css code, which it was easier (tho probably not the best idea) to put it on 1 page. 
+This is NOT that readable (sorry), open in VSC and use CTRL-F lol */
+
+
 body {
 
   font-family: monospace;
@@ -25,14 +29,21 @@ body {
 
 
 
-.Projects {
-  text-align: center;
+.projects {
   padding: 10px;
 }
 
+.projects h1 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
 
 /* i regret not making this chronological :( */
-/*here is the sliding animations*/
+/*here are the sliding animations*/
 
 .aboutMeContainer {
   display: flex;
@@ -76,13 +87,24 @@ body {
   }
 }
 
+@keyframes widthExpand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 
 
 .contactText {
   padding: 1rem;
   line-height: 115%;
   text-align: center;
-  font-weight: 200;
+  color:white;
+  font-size: 2rem;
+  
 }
 
 
@@ -134,20 +156,36 @@ body {
 /*blog titles/links*/
 .blogs .nv1:hover {
   color: rgb(1, 255, 179);
+  text-decoration-color: rgb(1, 255, 179);
 }
 
-
+.blogs .nv1{
+  color: rgb(255, 255, 255);
+  text-decoration-color: transparent;
+  transition: 0.3s;
+  font-style: italic;
+}
 
 .blogs>ul {
-  margin-left: 0.5rem;
-  list-style-type: none;
+  margin-left: 1rem;
+  list-style-type: disc;
+  color:white;
 }
+
+.blogs>ul li::marker {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 
 .blogs>ul>li {
-  padding: 0.5rem;
+  margin-left: 1rem;
+  padding: 0;
 }
 
-.blogs .nv1,
+
 .post-title {
   color: white;
   transition: 0.3s;
@@ -158,18 +196,40 @@ body {
 
 /*text in blogs*/
 
-.blog-standardized>h3,
-a {
+.blogscontainer {
   padding: 1rem;
+}
+
+.blogscontainer h3 {
+  margin: 0.5rem 0 0.5rem 0.25rem;
+}
+
+
+.blog-standardized h3,a{
   color: white;
   font-size: 1.25rem;
   line-height: 1.7rem;
   transition: 0.3s;
+  margin: 0;
+  padding: 1rem;
 }
 
-.blog-standardized>h3>a:hover {
-  color: rgb(1, 255, 179);
+.blog-standardized a{
+  padding: 0;
 }
+
+.blog-standardized a {
+  font-style: italic;
+}
+
+
+
+
+.blog-standardized {
+  padding: 2rem;
+}
+
+
 
 .blog-standardized>h3>code {
   background-color: black;
@@ -287,11 +347,23 @@ h2.post-title {
 
 
 
-.introduction-text>.sliding-text>h2 {
-  font-size: 2rem;
-  margin: 10px 0px;
-  color: white;
-  animation: slideRight 1s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
+
+
+.line-bar-about {
+  width: auto;
+  height: 0.1rem;
+  margin: 1rem 0 1rem 0;
+  background-color: transparent;
+  animation: slideRight 2s ease-in-out forwards;
+  justify-content: center;
+  align-content: center;
+}
+
+.line-bar-about2 {
+  width: auto;
+  height: 0.1rem;
+  background-color: white;
+  animation: fadeIn 5s ease-out forwards, blurIn 2s ease-in-out forwards, widthExpand 3s ease-in-out forwards;
   transition: slide;
   animation-delay: 200ms;
   opacity: 0;
@@ -299,6 +371,17 @@ h2.post-title {
 
 
 
+
+
+.introduction-text>.sliding-text>h2 {
+  font-size: 2rem;
+  margin: 10px 0px;
+  color: white;
+  animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
+  transition: slide;
+  animation-delay: 200ms;
+  opacity: 0;
+}
 
 .introduction-text > .sliding-text > .bio-p {
   font-size: 1.5rem;
@@ -309,6 +392,7 @@ h2.post-title {
   
   
 }
+
 
 .post-title {
   opacity: 0;
@@ -372,14 +456,15 @@ h2.post-title {
   padding: 1rem;
   font-weight: 500;
   color: white;
+  size: 115%;
 }
 
 
 
 
 
-a.linksItem:hover {
-  size: 115%;
+.footercontainer > :nth-child(n):hover{
+  color: grey;
 }
 
 

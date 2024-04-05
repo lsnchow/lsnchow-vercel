@@ -9,6 +9,7 @@ function Navbar () {
                 <CustomLink className = "nv1" to = "/">About</CustomLink>
                 <CustomLink className = "nv1" to = "/projects">Projects</CustomLink>
                 <CustomLink className = "nv1" to = "/contact">Contact</CustomLink>
+                <CustomLink className = "nv1" to = "/blog-posts">Blog</CustomLink>
             </nav>
         </div>
         
