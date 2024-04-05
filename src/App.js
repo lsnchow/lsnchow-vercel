@@ -13,7 +13,7 @@ import Footer from "./components/Footer"
 //Somehow, I must import each blog?? From an intuitive standpoint, 
 //ok, I don't think I can make this look cleaner. Works fine tho :D, taking advantage of React router
 import Blog1 from "./blog-posts/Blog1"
-
+import Blog2 from "./blog-posts/Blog2"
 
 
 
@@ -32,6 +32,7 @@ function App() {
             <Route path ="/contact" element ={<Contact />} />
             <Route path ="*" element ={<Error404 />} />
             <Route path = "/blog-posts/coding-a-new-website" element = {<Blog1/>}/>
+            <Route path = "/blog-posts/1-step-forward-3-steps-back" element = {<Blog2/>}/>
             <Route path = "/blogs-post" element = {<Blogs/>}/>
           </Routes>
           <Footer />

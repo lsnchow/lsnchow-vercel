@@ -11,6 +11,10 @@ function Blogs () {
                     <li>
                         <CustomLink className = "nv1" to = "/blog-posts/coding-a-new-website">Creating this website</CustomLink>
                     </li>
+
+                    <li>
+                        <CustomLink className = "nv1" to = "/blog-posts/1-step-forward-3-steps-back">1 Step Foward, 3 Backwards</CustomLink>
+                    </li>
                 </ul>
                 
             </nav>

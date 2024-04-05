@@ -1,13 +1,20 @@
 import React from "react"
 import Blogs from "../components/Blogs"
+import TypewriterEffect from "./TypewriterEffect";
 function AboutMe() {
+
+
+
     return (
         <div className = "aboutMeContainer">
             <div className = "introduction-text">
-                <h1 className="title-intro">Hi there👋</h1>
-                <h2 className="title-name">My name is Lucas Chow!</h2>
-                <h3 className="bio-p">I'm a Grade 12 student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h3>
-                <Blogs />
+                <h1 className="title-intro" > </h1>
+                <TypewriterEffect text="&#x200B;Hello there!" speed ={200} delay = {1000}/>
+                <div className = "sliding-text">
+                    <h2 className="title-name" >My name is Lucas Chow!</h2>
+                    <h2 className="bio-p">I'm a Grade 12 student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h2>
+                    <Blogs />
+                </div>
             </div>
 
             <div className = "blog-posts">
@@ -24,3 +31,39 @@ export default AboutMe;
                 <img id="waterphoto" src = {water} alt = "water of BC"></img>
                 <h3 className="waterphototext"><i>Overlooking the Pacific Ocean on a ferry</i></h3>
             </div>*/
+
+
+
+/*
+let textObj1 = document.querySelector(".title-intro")
+
+let textObj2 = document.querySelector(".title-name")
+
+textObj1.innerHTML = ""
+textObj2.innerHTML = ""
+let counter = -1
+let counter2 = -1
+function typeOutChars(obj) {
+    if (counter < obj.dataset.typetext.length) {
+        
+      
+      counter++
+      obj.innerHTML += obj.dataset.typetext.charAt(counter);
+    }
+}
+  
+function typeOutChars2(obj) {
+    if (counter2 < obj.dataset.typetext.length) {
+
+        
+        counter2++
+        obj.innerHTML += obj.dataset.typetext.charAt(counter);
+    }
+}
+  
+setInterval(() => {
+    typeOutChars(textObj1)
+    typeOutChars2(textObj2)
+}, 100);
+
+*/
