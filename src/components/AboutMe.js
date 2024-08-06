@@ -13,7 +13,7 @@ function AboutMe() {
                 <div className = "line-bar-about"><div className = "line-bar-about2"></div></div>
                 <div className = "sliding-text">
                     <h2 className="title-name" >My name is Lucas Chow!</h2>
-                    <h2 className="bio-p">I'm a <b className = "grade12-text">Grade 12</b> student hoping to study <b className = "ce-text">Computer Engineering 🛠️</b> in the fall!</h2>
+                    <h2 className="bio-p">I'm an incoming first year <b className = "ce-text">Engineering</b> student attending <b className = "queens-text">Queens University</b> in the fall!</h2>
                     <Blogs />
                 </div>
             </div>

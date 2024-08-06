@@ -204,6 +204,10 @@ body {
   margin: 0.5rem 0 0.5rem 0.25rem;
 }
 
+.queens-text {
+  color: red;
+}
+
 
 .blog-standardized h3,a{
   color: white;
