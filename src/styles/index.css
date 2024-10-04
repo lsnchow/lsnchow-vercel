@@ -406,18 +406,17 @@ h2.post-title {
 
 /*wow cool math in css???; */
 
-
 .blogs > ul > li:nth-child(1){
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 1000ms;
+  animation-delay: 0ms;
 }
 
 
 .blogs > ul > li:nth-child(2){
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
-  animation-delay: 1200ms;
+  animation-delay: 200ms;
 }
 
 
