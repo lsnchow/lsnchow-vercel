@@ -12,9 +12,8 @@ function AboutMe() {
                 <TypewriterEffect text="&#x200B;Hello there!" speed ={200} delay = {1000}/>
                 <div className = "line-bar-about"><div className = "line-bar-about2"></div></div>
                 <div className = "sliding-text">
-                    <h2 className="title-name" >My name is Lucas Chow!</h2>
-                    <h2 className="bio-p">I'm an incoming first year <b className = "ce-text">Engineering</b> student attending <b className = "queens-text">Queens University</b> in the fall!</h2>
-                    <Blogs />
+                    <h2 className="title-name" >I'm</h2>
+                    <h2 className="bio-p">I'm a <b className = "ce-text">Computer Engineer</b> student at <b className = "queens-text">Queens University</b></h2>
                 </div>
             </div>
 
