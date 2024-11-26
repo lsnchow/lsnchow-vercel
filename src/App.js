@@ -8,8 +8,6 @@ import Projects from "./components/Projects"
 import Footer from "./components/Footer"
 
 
-
-
 //Somehow, I must import each blog?? From an intuitive standpoint, 
 //ok, I don't think I can make this look cleaner. Works fine tho :D, taking advantage of React router
 import Blog1 from "./blog-posts/Blog1"
@@ -31,9 +29,7 @@ function App() {
             <Route path ="/projects" element ={<Projects />} />
             <Route path ="/contact" element ={<Contact />} />
             <Route path ="*" element ={<Error404 />} />
-            <Route path = "/blog-posts/coding-a-new-website" element = {<Blog1/>}/>
-            <Route path = "/blog-posts/1-step-forward-3-steps-back" element = {<Blog2/>}/>
-            <Route path = "/blog-posts" element = {<Blogs/>}/>
+
           </Routes>
           <Footer />
     </div>
@@ -41,3 +37,7 @@ function App() {
 }
 
 export default App;
+
+/*            <Route path = "/blog-posts/coding-a-new-website" element = {<Blog1/>}/>
+            <Route path = "/blog-posts/1-step-forward-3-steps-back" element = {<Blog2/>}/>
+            <Route path = "/blog-posts" element = {<Blogs/>}/>*/

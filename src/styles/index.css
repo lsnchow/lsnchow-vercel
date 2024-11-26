@@ -138,8 +138,9 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.3s;
-
 }
+
+
 
 .Navbar .nv1:hover {
   color: grey;
@@ -340,6 +341,18 @@ h2.post-title {
   color: rgb(200, 137, 255)
 }
 
+code {
+  background-color: #303641;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  font-weight: 600;
+  padding: 0 3px;
+}
+
+
+.startup-title-bio {
+  color: rgb(65, 255, 236);
+}
 /*some thing in react where it doesn't recognize <h1> w/ a classname? had to assign one to the parent div*/
 .typeWriterDiv>h1 {
   font-size: 2.7rem;
@@ -387,14 +400,32 @@ h2.post-title {
   opacity: 0;
 }
 
+.introduction-text .nv1{
+  
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
 .introduction-text > .sliding-text > .bio-p {
   font-size: 1.5rem;
   margin: 10px 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   opacity: 0;
   animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
   animation-delay: 600ms;
-  
-  
+}
+
+.introduction-text > .sliding-text > .main-headline-project-or-event {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  margin-top: 1rem;
+  opacity: 0;
+  animation: slideRight 2s ease-in-out forwards, fadeIn 2s ease-out forwards, blurIn 0.5s ease-in-out forwards;
+  animation-delay: 800ms;
 }
 
 

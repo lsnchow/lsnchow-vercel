@@ -8,24 +8,31 @@ function AboutMe() {
         <div className = "aboutMeContainer">
             <div className = "introduction-text">
                 <h1 className="title-intro" > </h1>
-                <TypewriterEffect text="&#x200B;Hi there!" speed ={200} delay = {1000}/>
+                <TypewriterEffect text="&#x200B;Hi there!" speed ={400} delay = {1000}/>
                 <div className = "line-bar-about"><div className = "line-bar-about2"></div></div>
                 <div className = "sliding-text">
-                    <h2 className="title-name" >I'm Lucas Chow</h2>
-                    <h2 className="bio-p">I'm a <b className = "ce-text">Computer Engineer</b> student at Queen's University</h2>
+                    <h2 className="title-name" >I'm Lucas!</h2>
+                    <h2 className="bio-p">I'm currently studying <b className = "ce-text">Computer Engineering</b> studying at Queen's University!</h2>
+
+
+
+
+
+
+                    
                 </div>
             </div>
 
-            <div className = "blog-posts">
-                
-            </div>
+           
         </div>
     )
 }
 
 
 export default AboutMe;
-
+/* <div className = "blog-posts">
+                
+            </div>*/
 /*<div className = "waterphoto">
                 <img id="waterphoto" src = {water} alt = "water of BC"></img>
                 <h3 className="waterphototext"><i>Overlooking the Pacific Ocean on a ferry</i></h3>

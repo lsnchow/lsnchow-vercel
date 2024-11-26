@@ -6,10 +6,12 @@ function Navbar () {
     return (
         <div className = "navbarcontainer">
             <nav className = "Navbar">
+                <a href = "https://drive.google.com/file/d/1zDZbkmqxmngjjJq9-YKlRcIib7T6HESQ/view?usp=sharing" className = "linksItem">
+                    Resume
+                </a>
                 <CustomLink className = "nv1" to = "/">About</CustomLink>
                 <CustomLink className = "nv1" to = "/projects">Projects</CustomLink>
                 <CustomLink className = "nv1" to = "/contact">Contact</CustomLink>
-                <CustomLink className = "nv1" to = "/blog-posts">Blog</CustomLink>
             </nav>
         </div>
         
@@ -30,3 +32,5 @@ function CustomLink ({to,children, ...props})
         </h3> 
     )
 }
+
+//<CustomLink className = "nv1" to = "/blog-posts">Blog</CustomLink>
