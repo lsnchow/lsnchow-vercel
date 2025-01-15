@@ -7,7 +7,7 @@ function Navbar () {
         <div className = "navbarcontainer">
             <nav className = "Navbar">
                 
-                <CustomLink className = "nv1" to = "https://drive.google.com/file/d/1zDZbkmqxmngjjJq9-YKlRcIib7T6HESQ/view?usp=sharing">Resume</CustomLink>
+                <CustomLink className = "nv1" to = "https://drive.google.com/file/d/1DPecBdUWlHk-vArM-LGjSlO2JKoNtnjU/view?usp=sharing">Resume</CustomLink>
                 <CustomLink className = "nv1" to = "">About</CustomLink>
                 <CustomLink className = "nv1" to = "/projects">Projects</CustomLink>
                 

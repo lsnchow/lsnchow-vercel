@@ -5,9 +5,6 @@ import React from "react"
 function Footer() {
     return (
         <div className = "footercontainer">
-            <a href = "https://drive.google.com/file/d/1zDZbkmqxmngjjJq9-YKlRcIib7T6HESQ/view?usp=sharing" className = "linksItem">
-                Resume
-            </a>
             <a href = "https://github.com/lsnchow" className = "linksItem">
                 Github
             </a>
